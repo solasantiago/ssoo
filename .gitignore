@@ -9,3 +9,6 @@ fuentes/
 
 # PDFs generados de la guía (se regeneran con guia-pdf.py)
 guias/pdf/
+
+# Caché de Python
+__pycache__/

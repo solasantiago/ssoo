@@ -2,6 +2,8 @@
 
 El libro de la materia, en el orden de la cursada 2026. SO no tiene TPs de ejercicios (el TP es un desarrollo grupal), así que hay un capítulo por tema de clase, cada uno en su archivo. Cada bloque es un tipo de ejercicio o de pregunta que toman, con teoría mínima, un ejemplo real resuelto, un ejercicio guiado, práctica y un cierre para memorizar y autoevaluarte. Las respuestas están al final de cada capítulo. Para imprimir: `python3 guia-pdf.py` genera en `guias/pdf/` un PDF por capítulo y el índice (`SO-indice.pdf`).
 
+**PDF para imprimir** (generados el 30/09/2026, en `guias/pdf/`, fuera de git): `SO-cap01.pdf` (30 páginas), `SO-cap02.pdf` (14), `SO-cap03.pdf` (16), `SO-cap04.pdf` (14), `SO-cap05.pdf` (15), `SO-cap06.pdf` (13) y este índice, `SO-indice.pdf`. Si cambia un capítulo, se regenera con `python3 guia-pdf.py N`.
+
 ## Índice
 
 Las estrellas dicen cuánto aparece cada bloque en los parciales reales relevados. Para el 1er parcial hay **4 parciales con fecha**, pero de cada uno se conoce solo el ejercicio de planificación (ejercicio 1): el de 1C 2017 y los recuperatorios de 1C 2022, 2C 2022 y 1C 2023, todos en la práctica adicional de la cátedra. Por eso las estrellas del capítulo 1 dicen qué tipo de ejercicio de planificación toman. Para el resto no hay parciales con fecha: las estrellas marcadas "(estimado)" salen de los "Ejercicios de parcial" de cada tema (sin fecha), de la "Práctica avanzada 1er parcial" y del final del 20/02/2024. 📌 va a marcar lo que se tome en los parciales de esta cursada.

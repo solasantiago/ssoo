@@ -2,7 +2,7 @@
 
 ## Dónde retomar
 
-- **Armado del libro:** los 6 capítulos del calendario de clases están completos (30/09/2026): 1 planificación, 2 sincronización, 3 deadlock, 4 memoria, 5 memoria virtual y 6 file systems. Un capítulo por tema de clase (SO no tiene TPs de ejercicios). Los PDF de los capítulos 2 a 6 no se generaron todavía (el estudiante pidió priorizar los .md); se generan con `python3 guia-pdf.py`.
+- **Armado del libro:** los 6 capítulos del calendario de clases están completos (30/09/2026): 1 planificación, 2 sincronización, 3 deadlock, 4 memoria, 5 memoria virtual y 6 file systems. Un capítulo por tema de clase (SO no tiene TPs de ejercicios). Los PDF de los 6 capítulos y del índice están generados (30/09/2026) y revisados con pdftotext y pdftoppm.
 - **A confirmar:** E/S (u6), seguridad (u8) y virtualización (u9) no están en el calendario ni hay material de la cátedra: no tienen capítulo hasta que el estudiante confirme si se toman. El buddy system (u5) tampoco se dio.
 - **Fecha urgente:** según el calendario de la cátedra (tentativo), el **1er parcial es el sábado 03/10/2026**. Hay que confirmarla con el estudiante.
 - **Fuentes que faltan:** parciales completos con fecha (del campus, "Parciales y Finales resueltos"): de los que hay solo se conoce el ejercicio 1 de planificación. El simulacro de parcial 2026 (clase del 26/09). El programa analítico en PDF para `programa/`.

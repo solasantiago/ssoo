@@ -1,0 +1,11 @@
+# Material de la cátedra y de terceros: queda solo en local (el repo es público)
+fuentes/
+
+# Metadatos que deja Windows al copiar archivos a WSL
+*:Zone.Identifier
+
+# Estado y worktrees de Claude Code (local)
+.claude/
+
+# PDFs generados de la guía (se regeneran con guia-pdf.py)
+guias/pdf/

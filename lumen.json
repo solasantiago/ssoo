@@ -3,7 +3,7 @@
   "id": "sistemas-operativos",
   "nombre": "Sistemas Operativos",
   "abreviatura": "SO",
-  "actualizado": "2026-09-29T23:35:00-03:00",
+  "actualizado": "2026-09-30T01:25:00-03:00",
   "programa": {
     "plan": "2023",
     "nivel": 2,
@@ -543,6 +543,6 @@
   "extra": {
     "guia": "guias/README.md",
     "fechas": "Fechas del calendario de clases de la cátedra (Calendario de clases.xlsx), que las marca como tentativas. En el archivo las fechas de las clases figuran con año 2025 por error de carga: los días escritos a mano (martes 1/12, 16/02) solo coinciden con 2026-2027. Confirmar con la cátedra.",
-    "alcance": "Por el calendario, p1: procesos, hilos, planificación, sincronización y deadlock; p2: memoria, memoria virtual y file systems (FAT y ext2). E/S, seguridad y virtualización no figuran en el calendario de clases."
+    "alcance": "Por el calendario, p1: procesos, hilos, planificación, sincronización y deadlock (capítulos 1 a 3); p2: memoria, memoria virtual y file systems, FAT y ext2 (capítulos 4 a 6). E/S (u6), seguridad (u8) y virtualización (u9) no figuran en el calendario de clases: quedan a confirmar con la cátedra."
   }
 }

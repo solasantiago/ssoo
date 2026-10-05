@@ -3,7 +3,7 @@
   "id": "sistemas-operativos",
   "nombre": "Sistemas Operativos",
   "abreviatura": "SO",
-  "actualizado": "2026-09-30T22:35:00-03:00",
+  "actualizado": "2026-10-04T22:11:25-03:00",
   "programa": {
     "plan": "2023",
     "nivel": 2,
@@ -38,13 +38,19 @@
           "evidencia": {
             "ultimo_repaso": "2026-09-30",
             "proximo_repaso": "2026-10-02",
-            "minutos": 5
-          }
+            "minutos": 15
+          },
+          "notas": "No distingue interrupción síncrona de asíncrona; mezcla modo kernel (del procesador) con hilo de kernel."
         },
         {
           "id": "u1-arquitecturas-kernel",
           "nombre": "Arquitecturas de kernel",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-09-30",
+            "proximo_repaso": "2026-10-02",
+            "minutos": 5
+          }
         },
         {
           "id": "u1-componentes-interfaces-usuario-administradores",
@@ -63,7 +69,7 @@
           "evidencia": {
             "ultimo_repaso": "2026-09-30",
             "proximo_repaso": "2026-10-02",
-            "minutos": 5
+            "minutos": 10
           }
         },
         {
@@ -114,7 +120,12 @@
         {
           "id": "u2-operaciones-control-procesos",
           "nombre": "Operaciones y control de procesos",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-09-30",
+            "proximo_repaso": "2026-10-02",
+            "minutos": 8
+          }
         },
         {
           "id": "u2-procesos-cpu-bound-i",
@@ -128,13 +139,20 @@
           "evidencia": {
             "ultimo_repaso": "2026-09-30",
             "proximo_repaso": "2026-10-02",
-            "minutos": 5
-          }
+            "minutos": 13
+          },
+          "notas": "Iguala cambio de contexto con cambio de proceso."
         },
         {
           "id": "u2-hilos-implementacion-ciclo-vida",
           "nombre": "Hilos: implementación y ciclo de vida",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-10-02",
+            "proximo_repaso": "2026-10-04",
+            "minutos": 17
+          },
+          "notas": "Cree que las variables globales viven en los registros y que otro hilo no las ve; mezcla hilo de hardware, KLT y ULT."
         }
       ]
     },
@@ -158,32 +176,68 @@
         {
           "id": "u3-criterios-planificacion-politica-vs",
           "nombre": "Criterios de planificación: política vs. mecanismo",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-10-01",
+            "proximo_repaso": "2026-10-03",
+            "minutos": 12
+          },
+          "notas": "Al principio dio apropiativo y no apropiativo al revés."
         },
         {
           "id": "u3-algoritmos-no-apropiativos-fcfs",
           "nombre": "Algoritmos no apropiativos: FCFS y SPN",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-10-01",
+            "proximo_repaso": "2026-10-03",
+            "minutos": 16
+          },
+          "notas": "Confunde SPN con SRT por el nombre."
         },
         {
           "id": "u3-planificacion-prioridades",
           "nombre": "Planificación por prioridades",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-10-01",
+            "proximo_repaso": "2026-10-03",
+            "minutos": 12
+          },
+          "notas": "Quiere clasificarlo como apropiativo o no apropiativo; puede ser de las dos formas."
         },
         {
           "id": "u3-round-robin-virtual-round",
           "nombre": "Round Robin y Virtual Round Robin",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-10-01",
+            "proximo_repaso": "2026-10-03",
+            "minutos": 10
+          },
+          "notas": "Reconoce RR por la descripción; VRR no se vio."
         },
         {
           "id": "u3-srt-hrrn",
           "nombre": "SRT y HRRN",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-10-01",
+            "proximo_repaso": "2026-10-03",
+            "minutos": 27
+          },
+          "notas": "Calcula el RR con la cantidad de ráfagas en vez de (espera + ráfaga) / ráfaga; lee \"ráfaga de duración 2\" como \"dos ráfagas\"."
         },
         {
           "id": "u3-colas-multinivel-sin-realimentacion",
           "nombre": "Colas multinivel con y sin realimentación",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-10-01",
+            "proximo_repaso": "2026-10-03",
+            "minutos": 20
+          },
+          "notas": "Sabe la regla del feedback pero no el porqué (el I/O bound se bloquea antes de agotar el quantum y no baja)."
         },
         {
           "id": "u3-planificacion-reparto-equitativo",
@@ -236,7 +290,12 @@
         {
           "id": "u4-ipc-paso-mensajes",
           "nombre": "IPC y paso de mensajes",
-          "nivel": 0
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-09-30",
+            "proximo_repaso": "2026-10-02",
+            "minutos": 5
+          }
         },
         {
           "id": "u4-productor-consumidor",
@@ -482,14 +541,15 @@
       "nombre": "1er parcial",
       "tipo": "parcial",
       "fecha": "2026-10-03",
+      "hora": "10:00",
       "unidades": [
         "u1",
         "u2",
         "u3",
         "u4"
       ],
-      "nota": null,
-      "estado": "pendiente"
+      "nota": 1,
+      "estado": "desaprobado"
     },
     {
       "id": "p2",
@@ -590,6 +650,54 @@
         "u3-niveles-planificacion-largo-mediano",
         "u1-soporte-hardware-interrupciones-modos",
         "u1-llamadas-sistema-syscalls"
+      ]
+    },
+    {
+      "fecha": "2026-09-30",
+      "minutos": 90,
+      "tipo": "teoria",
+      "temas": [
+        "u1-soporte-hardware-interrupciones-modos",
+        "u1-llamadas-sistema-syscalls",
+        "u1-arquitecturas-kernel",
+        "u2-contexto-cambio-contexto-cambio",
+        "u2-operaciones-control-procesos",
+        "u2-hilos-implementacion-ciclo-vida",
+        "u4-ipc-paso-mensajes",
+        "u3-criterios-planificacion-politica-vs",
+        "u3-algoritmos-no-apropiativos-fcfs",
+        "u3-planificacion-prioridades",
+        "u3-round-robin-virtual-round",
+        "u3-srt-hrrn"
+      ]
+    },
+    {
+      "fecha": "2026-10-01",
+      "minutos": 25,
+      "tipo": "teoria",
+      "temas": [
+        "u3-criterios-planificacion-politica-vs",
+        "u3-algoritmos-no-apropiativos-fcfs",
+        "u3-planificacion-prioridades",
+        "u3-round-robin-virtual-round",
+        "u3-srt-hrrn"
+      ]
+    },
+    {
+      "fecha": "2026-10-01",
+      "minutos": 35,
+      "tipo": "teoria",
+      "temas": [
+        "u3-srt-hrrn",
+        "u3-colas-multinivel-sin-realimentacion"
+      ]
+    },
+    {
+      "fecha": "2026-10-02",
+      "minutos": 5,
+      "tipo": "teoria",
+      "temas": [
+        "u2-hilos-implementacion-ciclo-vida"
       ]
     }
   ],
